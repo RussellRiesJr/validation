@@ -1,10 +1,16 @@
 
+input:valid:focus {
+  background: hsla(100, 90%, 70%, 1);
+}
 
+input:invalid:focus {
+  background: hsla(0, 90%, 70%, 1);
+}
 
- legend {
+legend {
   font-family: "Courier New", courier, monospace;
- }
+}
 
- input {
+input {
   font-family: "Courier New", courier, monospace;
- }
+}

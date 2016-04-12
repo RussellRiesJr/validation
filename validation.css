@@ -1,9 +1,17 @@
 
-input:valid:focus {
+input[type="email"]:valid:focus {
   background: hsla(100, 90%, 70%, 1);
 }
 
-input:invalid:focus {
+input[type="email"]:invalid:focus {
+  background: hsla(0, 90%, 70%, 1);
+}
+
+input[type="url"]:valid:focus {
+  background: hsla(100, 90%, 70%, 1);
+}
+
+input[type="url"]:invalid:focus {
   background: hsla(0, 90%, 70%, 1);
 }
 
